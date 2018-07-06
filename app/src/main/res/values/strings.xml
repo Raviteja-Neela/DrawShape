@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shapes and Colors</string>
+
+    <string name="Height">Height</string>
+    <string name="Width">Width</string>
+    <string name="Color">Color</string>
+
+    <string name="Rectangle">Rectangle</string>
+    <string name="Circle">Rectangle</string>
+    <string name="Oval">Rectangle</string>
+    <string name="Text">Rectangle</string>
+    <string name="Clear">Clear</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawLayout">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="@string/Rectangle"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/drawbtn" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="@string/Clear"
+        android:id="@+id/clear"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/drawbtn"
+        android:textColor="@color/colorWhite"
+        android:layout_toEndOf="@+id/drawbtn" />
+
+</RelativeLayout>

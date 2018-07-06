@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="50dp"
+        android:weightSum="1">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/Height"
+             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+             android:id="@+id/textContent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_weight="0.58"
+            android:id="@+id/txtHeight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:id="@+id/txtText"
+            android:inputType="text"
+            android:maxLength="10"
+            android:visibility="invisible"/>
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:id="@+id/txtRadius"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:inputType="number"
+            android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="50dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Width"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:id="@+id/txtWidthContent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:id="@+id/txtWidth"
+            android:inputType="number" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:id="@+id/txtRadius1"
+                android:visibility="invisible"
+                android:inputType="number" />
+        </RelativeLayout>
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Color"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <Spinner
+        android:id="@+id/colorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:entries="@array/items"
+        android:weightSum="1"/>
+    </LinearLayout>
+</LinearLayout>

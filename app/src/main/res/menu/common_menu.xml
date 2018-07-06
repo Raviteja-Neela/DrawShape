@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu1" android:alphabeticShortcut="a"
+        android:title="Rectangle" android:orderInCategory="1" />
+    <item android:id="@+id/menu2" android:alphabeticShortcut="b"
+        android:title="Circle" android:orderInCategory="2"/>
+    <item android:id="@+id/menu3" android:alphabeticShortcut="c"
+        android:title="Oval" android:orderInCategory="3"/>
+    <item android:id="@+id/menu4" android:alphabeticShortcut="d"
+        android:title="Text" android:orderInCategory="4"/>
+
+</menu>
